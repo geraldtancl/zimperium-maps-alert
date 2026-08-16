@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123f8c">
+  <title>Device Security Risk | Bangkok Bank</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Back to security alert previews">
+      <span class="brand-mark" aria-hidden="true">BBL</span>
+      <span class="brand-copy">
+        <strong>Bangkok Bank</strong>
+        <span>Mobile Banking Security</span>
+      </span>
+    </a>
+    <span class="secure-label">Protected session</span>
+  </header>
+
+  <main class="alert-layout">
+    <article class="alert-card" aria-labelledby="alert-title">
+      <section class="visual-panel" aria-hidden="true">
+        <div class="icon-orbit">
+          <svg class="threat-icon" viewBox="0 0 120 120">
+            <rect x="35" y="13" width="50" height="94" rx="11"/>
+            <path d="M51 21h18M52 96h16M20 77l22-22M20 55l22 22"/>
+          </svg>
+        </div>
+        <span class="visual-caption">Device trust check</span>
+      </section>
+
+      <section class="content-panel">
+        <p class="eyebrow">Security risk detected</p>
+        <h1 id="alert-title">This device is not secure</h1>
+        <p class="description">Your device appears to be rooted or jailbroken. To protect your account and personal information, Bangkok Bank Mobile Banking cannot run on modified devices.</p>
+        <div class="notice">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 17h.01"/>
+          </svg>
+          <span>Restore the device to the official operating system, then restart the application. Do not enter banking credentials on this device.</span>
+        </div>
+        <div class="actions">
+          <button class="button" type="button" onclick="window.close()">Close</button>
+          <a class="support-link" href="tel:1333">Contact support</a>
+        </div>
+        <p class="reference"><strong>Reference:</strong> SEC-DEVICE-01</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>

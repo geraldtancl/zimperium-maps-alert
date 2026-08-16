@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#123f8c">
+  <title>BBL Security Alert Pages</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Bangkok Bank security home">
+      <span class="brand-mark" aria-hidden="true">BBL</span>
+      <span class="brand-copy">
+        <strong>Bangkok Bank</strong>
+        <span>Mobile Banking Security</span>
+      </span>
+    </a>
+    <span class="secure-label">Protected session</span>
+  </header>
+
+  <main class="gallery-main">
+    <section class="gallery-heading">
+      <p class="eyebrow">Security response library</p>
+      <h1>Clear guidance when a threat is detected.</h1>
+      <p>Select a security scenario to preview the customer-facing alert screen.</p>
+    </section>
+
+    <section class="gallery-grid" aria-label="Security alert page previews">
+      <a class="gallery-card" href="rooted-device.html" target="_blank" rel="noopener">
+        <span class="small-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48">
+            <rect x="13" y="5" width="22" height="38" rx="5"/>
+            <path d="M20 9h8M21 38h6M7 31l7-7M7 24l7 7"/>
+          </svg>
+        </span>
+        <span class="arrow" aria-hidden="true">↗</span>
+        <h2>Rooted or Jailbroken Device</h2>
+        <p>The device operating system has been modified and can no longer be trusted.</p>
+      </a>
+
+      <a class="gallery-card" href="tampering.html" target="_blank" rel="noopener">
+        <span class="small-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48">
+            <path d="M24 5l16 7v10c0 10-6.7 17.4-16 21-9.3-3.6-16-11-16-21V12l16-7z"/>
+            <path d="M18 18l12 12M30 18L18 30"/>
+          </svg>
+        </span>
+        <span class="arrow" aria-hidden="true">↗</span>
+        <h2>Application Tampering</h2>
+        <p>The application package or its runtime behavior appears to have been altered.</p>
+      </a>
+
+      <a class="gallery-card" href="network-attack.html" target="_blank" rel="noopener">
+        <span class="small-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48">
+            <path d="M7 18a26 26 0 0134 0M13 25a17 17 0 0122 0M19 32a8 8 0 0110 0"/>
+            <path d="M24 40h.01M7 7l34 34"/>
+          </svg>
+        </span>
+        <span class="arrow" aria-hidden="true">↗</span>
+        <h2>Network Attack</h2>
+        <p>The current network may be intercepting or manipulating secure communication.</p>
+      </a>
+
+      <a class="gallery-card" href="device-integrity.html" target="_blank" rel="noopener">
+        <span class="small-icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48">
+            <path d="M24 5l16 7v10c0 10-6.7 17.4-16 21-9.3-3.6-16-11-16-21V12l16-7z"/>
+            <path d="M24 15v11M24 33h.01"/>
+          </svg>
+        </span>
+        <span class="arrow" aria-hidden="true">↗</span>
+        <h2>Device Integrity Violation</h2>
+        <p>A critical device security check failed and the session cannot continue safely.</p>
+      </a>
+    </section>
+  </main>
+</body>
+</html>
